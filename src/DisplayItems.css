@@ -1,0 +1,35 @@
+
+.Add{
+    background-color : rgb(80, 21, 80);
+    min-height: 40px;
+    color: white;
+    margin: 20px 20px;
+    border-radius: 5px;
+    border-width: 0px;
+    padding-top: 10px;
+    vertical-align: center;
+    position: relative;
+}
+.remove{
+    position: absolute;
+    right: 10px;
+}
+
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
